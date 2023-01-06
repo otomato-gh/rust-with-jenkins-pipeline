@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh "cargo build"
+        sh "~/.cargo/bin/cargo build"
       }
     }
 
